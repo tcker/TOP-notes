@@ -12,3 +12,20 @@
 
 ## auto
 - Overflow content is clipped at the element's padding box, and overflow content can be scrolled into view using scroll bars. Unlike scroll, user agents display scroll bars only if the content is overflowing. If content fits inside the element's padding box, it looks the same as with visible but still establishes a new formatting context. The element box is a scroll container.
+
+```bash
+/* Keyword values */
+overflow: visible;
+overflow: hidden;
+overflow: clip;
+overflow: scroll;
+overflow: auto;
+overflow: hidden visible;
+
+/* Global values */
+overflow: inherit;
+overflow: initial;
+overflow: revert;
+overflow: revert-layer;
+overflow: unset;
+```
